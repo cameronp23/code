@@ -4,7 +4,8 @@ public class Lesson_7_Activity_One {
     public static void main(String[] args){
         int number;
         Scanner keyboard = new Scanner (System.in);
-        System.out.println ("Please enter an integer with up to 3 digits.");
+        
+        System.out.println ("Please enter a three digit number: ");
         number = keyboard.nextInt( );
 
         System.out.println (number / 100);
